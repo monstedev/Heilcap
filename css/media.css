@@ -1,0 +1,77 @@
+@media screen and (max-width: 1024px) {
+
+    .staff__container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .staffer{
+        padding: 1rem;
+    }
+
+    /* =========== */
+
+    nav{
+        display: none;
+    }
+
+    header{
+        margin-top: 0;
+        height: 60vh;
+    }
+    .header__container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .header__right .background{
+        top: 27rem;
+        right: 32%;
+    }
+    .header__right img{
+        top: 25rem;
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 90%;
+    }
+    .staff__container{
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+    }
+
+    .staffer{
+        padding: 0;
+    }
+
+    .staffer p{
+        margin-bottom: 1.5rem;
+    }
+
+    .servizi__container{
+        display: grid;
+        grid-template-columns: 1fr
+    }
+    .servizi p{
+        width: 90%;
+    }
+
+    header{
+        height: 100vh;
+    }
+    .header__right .background{
+        top: 31.5rem;
+        width: 60%;
+        right: 20%;
+    }
+    .header__right img{
+        top: 30.7rem;
+        width: 60%;
+        right: 23%;
+    }
+}
