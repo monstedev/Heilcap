@@ -15,6 +15,6 @@
 
 # Do you want a website?
 
-> Simple, contact me:
+Simple, contact me:
 - e-mail: monste.dev@gmail.com
 - Discord: Monste#0034
